@@ -1,0 +1,145 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.navbar {
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+	display: table;
+	box-shadow: 1px 1px 2px #ddd;
+	position: fixed;
+	background-color: #fff;
+}
+
+.navbar-logo {
+	float: left;
+}
+
+.nav-brand {
+	display: block;
+	color: #333;
+	padding: 15px;
+	text-decoration: none;
+	font-size: 25px;
+}
+
+.nav-right {
+	float: right;
+	padding: 0;
+	list-style: none;
+	margin: 0;
+}
+
+.nav-right li {
+	float: left;
+}
+
+.nav-right li a {
+	display: block;
+	padding: 20px;
+	text-decoration: none;
+}
+
+.nav-right li a:hover {
+	background-color: #ddd;
+}
+/** navbar end here **/
+
+/** main wrapper start here **/
+#main-wrapper {
+	padding-top: 70px;
+	text-align: center;
+	padding-bottom: 70px;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+#main-wrapper p {
+	font-size: 30px;
+}
+
+#main-wrapper ul {
+	padding: 0;
+	list-style: none;
+	display: table;
+	margin: auto;
+}
+
+#main-wrapper ul li {
+	float: left;
+	margin-right: 15px;
+	font-size: 23px;
+}
+
+#main-wrapper ul li.divider {
+	border: 1px solid #333;
+	height: 25px;
+}
+
+.contact-box {
+	margin-top: 50px;
+}
+
+form {
+	padding: 10px;
+}
+
+.form-group {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: table;
+	width: 100%;
+}
+
+.form-control {
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+	font-size: 15px;
+	width: 100%;
+}
+
+.form-control:hover, .form-control:focus {
+	border: 1px solid blue;
+}
+
+.btn {
+	padding: 10px;
+	border: 1px solid #ddd;
+	font-size: 20px;
+	background-color: whitesmoke;
+	border-radius: 5px;
+}
+
+.btn:hover {
+	background-color: #eee;
+}
+
+.float-right {
+	float: right;
+}
+
+.contact-us h3 {
+	text-decoration: underline;
+}
+
+.text-center {
+	text-align: center;
+}
+.underline {
+	text-decoration: underline;
+}
+
+footer {
+	background-color: #ddd;
+	color: #333;
+	padding: 20px;
+}

@@ -1,0 +1,27 @@
+.image {
+		width: 100px;
+		height: 100px;
+	}
+
+	#image-1 {
+		border-radius: 5px;
+	}
+
+	.btn {
+		border: 1px solid #ddd;
+		padding: 10px;
+		color: #fff;
+	}
+
+	.btn-blue {
+		background-color: blue;
+	}
+
+	.btn-yellow {
+		background-color: yellow;
+		color: #333;
+	}
+
+	#btn-1 {
+		margin-right: 10px;
+	}
